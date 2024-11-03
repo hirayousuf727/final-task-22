@@ -1,0 +1,83 @@
+.one{
+    background-color: navy;
+    color: white;
+    text-decoration: underline 1px white;
+    text-transform: capitalize;
+}
+.one p{
+    margin-left: 50px;
+}
+.one span{
+    color: rgb(55, 172, 240);
+}
+.one:hover{
+    background-color: rgb(0, 195, 255);
+    color: navy;
+    text-decoration: underline 1px white;
+    text-shadow: 0px 20px 20px white, 0px 20px 20px lightblue;
+    transition: ease-in-out ;
+    cursor: pointer;
+}
+.one span:hover{
+    color: navy;
+    cursor: pointer;
+}
+nav{
+    background-color: navy;
+    color: white;
+}
+.ms-5{
+    background-color: rgb(0, 191, 255);
+    color: white;
+    margin-left: 70px;
+}
+.ms-5:hover{
+    text-align: center;
+    text-decoration: underline 1px white;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.nav-link{
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+.nav-link:hover{
+    background-color: rgb(6, 184, 243);
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline 1px white;
+    cursor: pointer;
+}
+.btn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: white;
+    margin: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: red;
+    border: red;
+    text-align: center;
+    text-decoration: underline 1px red;
+    text-transform: capitalize;
+    transition: ease-in-out;
+    box-shadow: 0px 20px 20px white, 0px 20px 20px red;
+
+}
+.carousel img{
+    width: 1330px;
+    height: 600px;
+}
+.carousel{
+    position: relative;
+}
+form{
+ margin-left: 30px;
+}
+h2{
+    margin-left: 30px;
+   
+}

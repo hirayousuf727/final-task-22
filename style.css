@@ -1,0 +1,291 @@
+.one{
+    background-color: navy;
+    color: white;
+    text-decoration: underline 1px white;
+    text-transform: capitalize;
+}
+.one p{
+    margin-left: 50px;
+}
+.one span{
+    color: rgb(55, 172, 240);
+}
+.one:hover{
+    background-color: rgb(0, 195, 255);
+    color: navy;
+    text-decoration: underline 1px white;
+    text-shadow: 0px 20px 20px white, 0px 20px 20px lightblue;
+    transition: ease-in-out ;
+    cursor: pointer;
+}
+.one span:hover{
+    color: navy;
+    cursor: pointer;
+}
+nav{
+    background-color: navy;
+    color: white;
+}
+.ms-5{
+    background-color: rgb(0, 191, 255);
+    color: white;
+    margin-left: 70px;
+}
+.ms-5:hover{
+    text-align: center;
+    text-decoration: underline 1px white;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.nav-link{
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+.nav-link:hover{
+    background-color: rgb(6, 184, 243);
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline 1px white;
+    cursor: pointer;
+}
+.btn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: white;
+    margin: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: red;
+    border: red;
+    text-align: center;
+    text-decoration: underline 1px red;
+    text-transform: capitalize;
+    transition: ease-in-out;
+    box-shadow: 0px 20px 20px white, 0px 20px 20px red;
+
+}
+.carousel img{
+    width: 1330px;
+    height: 600px;
+}
+.carousel{
+    position: relative;
+}
+
+/* :: 7.0 About Us Area CSS */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .medica-about-content {
+      margin-bottom: 100px; } }
+  @media only screen and (max-width: 767px) {
+    .medica-about-content {
+      margin-bottom: 100px; } }
+  .medica-about-content h2 {
+    font-size: 44px;
+    margin-bottom: 30px; }
+    @media only screen and (max-width: 767px) {
+      .medica-about-content h2 {
+        font-size: 30px; } }
+  
+  /* :: 8.0 Service Area CSS */
+  .medica-services-area {
+    position: relative;
+    z-index: 1; }
+  
+  .single-service-area {
+    margin-bottom: 80px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms; }
+    .single-service-area .service-icon {
+      width: 64px;
+      height: 64px;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 64px;
+      flex: 0 0 64px;
+      margin-right: 30px;
+      text-align: center;
+      line-height: 64px;
+      font-size: 30px;
+      background-color: #cacaca;
+      border-radius: 50%;
+      color: #ffffff;
+      -webkit-transition-duration: 500ms;
+      transition-duration: 500ms; }
+    .single-service-area .service-content {
+      margin-top: 15px; }
+      .single-service-area .service-content h5 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms; }
+      .single-service-area .service-content p {
+        margin-bottom: 0; }
+    .single-service-area:hover .service-icon {
+      background-color: #006cff; }
+    .single-service-area:hover .service-content h5 {
+      color: #006cff; }
+  .best img{
+    width: 332px;
+    height: 300px;
+  }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .features-content {
+    margin-bottom: 100px; } }
+@media only screen and (max-width: 767px) {
+  .features-content {
+    margin-bottom: 100px; } }
+.features-content h2 {
+  font-size: 48px;
+  margin-bottom: 30px; }
+  @media only screen and (max-width: 767px) {
+
+    .features-content h2 {
+      font-size: 30px; } }
+
+.medilife-emergency-area {
+  background-color: #006cff; }
+  .medilife-emergency-area .emergency-content i {
+    font-size: 130px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 50px; }
+  .medilife-emergency-area .emergency-content h2 {
+    font-size: 44px;
+    margin-bottom: 20px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .medilife-emergency-area .emergency-content h2 {
+        font-size: 30px; } }
+    @media only screen and (max-width: 767px) {
+      .medilife-emergency-area .emergency-content h2 {
+        font-size: 24px; } }
+  .medilife-emergency-area .emergency-content h3 {
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 0; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .medilife-emergency-area .emergency-content h3 {
+        font-size: 40px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .medilife-emergency-area .emergency-content h3 {
+        font-size: 30px; } }
+    @media only screen and (max-width: 767px) {
+      .medilife-emergency-area .emergency-content h3 {
+        font-size: 24px; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .medilife-emergency-area .emergency-content {
+      margin-bottom: 100px; } }
+  @media only screen and (max-width: 767px) {
+    .medilife-emergency-area .emergency-content {
+      margin-bottom: 100px; } }
+  .medilife-emergency-area .single-emergency-helpline h5 {
+    color: #ffffff;
+    margin-bottom: 20px; }
+  .medilife-emergency-area .single-emergency-helpline p {
+    color: #ffffff;
+    margin-bottom: 0; }
+    .footer-area {
+      background-color: #020f20;
+      padding-left: 45px;
+      padding-right: 45px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .footer-area {
+          padding-left: 30px;
+          padding-right: 30px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .footer-area {
+          padding-left: 15px;
+          padding-right: 15px; } }
+      @media only screen and (max-width: 767px) {
+        .footer-area {
+          padding-left: 0;
+          padding-right: 0; } }
+    
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .footer-widget-area {
+        margin-bottom: 50px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .footer-widget-area {
+        margin-bottom: 50px; } }
+    @media only screen and (max-width: 767px) {
+      .footer-widget-area {
+        margin-bottom: 50px; } }
+    .footer-widget-area .footer-logo {
+      margin-bottom: 50px; }
+    .footer-widget-area p {
+      color: #ffffff;
+      margin-bottom: 0; }
+    .footer-widget-area .footer-social-info {
+      margin-top: 40px; }
+      .footer-widget-area .footer-social-info a {
+        color: #ffffff;
+        margin-right: 15px;
+        font-size: 18px;
+        display: inline-block; }
+    .footer-widget-area .widget-title h6 {
+      font-size: 18px;
+      color: #006cff;
+      margin-bottom: 50px;
+      text-transform: capitalize; }
+    .footer-widget-area .widget-single-blog-post {
+      margin-bottom: 15px; }
+      .footer-widget-area .widget-single-blog-post .widget-post-thumbnail {
+        width: 70px;
+        height: 70px;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 70px;
+        flex: 0 0 70px;
+        margin-right: 30px; }
+      .footer-widget-area .widget-single-blog-post .widget-post-content a {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        display: block;
+        margin-bottom: 2px; }
+      .footer-widget-area .widget-single-blog-post .widget-post-content p {
+        font-size: 12px; }
+    .footer-widget-area .footer-contact-form {
+      background-color: #081f3e;
+      padding: 30px 40px; }
+      @media only screen and (max-width: 767px) {
+        .footer-widget-area .footer-contact-form {
+          padding: 30px 20px; } }
+    .footer-widget-area .footer-newsletter-area form {
+      position: relative;
+      z-index: 1;
+      margin-bottom: 30px; }
+    .footer-widget-area .footer-newsletter-area input {
+      width: 100%;
+      height: 48px;
+      background-color: #081f3e;
+      font-size: 15px;
+      padding: 0 15px; }
+    .footer-widget-area .footer-newsletter-area button {
+      position: absolute;
+      top: 0;
+      padding: 0 20px;
+      height: 48px;
+      right: 0;
+      z-index: 9;
+      cursor: pointer;
+      background-color: #006cff;
+      color: #ffffff;
+      border: none; }
+    .footer-widget-area .footer-newsletter-area p {
+      font-size: 12px;
+      color: #57595c;
+      font-style: italic;
+      margin-bottom: 0; }
+    
+    .copywrite-text p {
+      color: rgba(255, 255, 255, 0.35);
+      margin-bottom: 0; }
+      .copywrite-text p a {
+        color: rgba(255, 255, 255, 0.35); }
+    
+footer{
+  background-color: navy;
+}
+
+        
